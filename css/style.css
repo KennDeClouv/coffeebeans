@@ -33,6 +33,7 @@ span {
 html{
     scroll-behavior: smooth;
     background-color: var(--third);
+    scroll-padding-top: 4.5em;
 }
 a{
       text-decoration:none;
@@ -125,14 +126,14 @@ nav ul li a:hover {
 .burger input:hover ~ span {
       background-color: var(--secondary);
 }
-.burger input:checked ~ span:nth-child(2) {
+.ac1 {
       transform: rotate(45deg);
       transform-origin: 0px 3px;
 }
-.burger input:checked ~ span:nth-child(3) {
+.ac2 {
       transform: scaleX(0);
 }
-.burger input:checked ~ span:nth-child(4) {
+.ac3 {
       transform: rotate(-45deg);
       transform-origin: 2px 2px;
 }
@@ -178,6 +179,10 @@ nav ul li a:hover {
 .btn:hover {
       background-color: var(--primary);
       cursor: pointer;
+      transform: scale(.98);
+}
+.btn:active{
+      transform: scale(.92);
 }
 .home {
       width: 100%;
@@ -321,15 +326,25 @@ footer{
       justify-content: center;
       align-items: center;
       border-radius: 100%;
-      padding: 10px;
+      /* padding: 10px; */
       margin: 10px 10px 10px 0;
       aspect-ratio: 1/1;
+      transition: var(--transition);
 }
 .sos a i{
       color: var(--primary);
-      font-size: 20px;
-      padding: 10px;
+      font-size: 18px;
+      padding: 15px;
 }
+
+.sos:hover{
+      background-color: var(--secondary);
+      transform: scale(.97);
+}
+.sos:active{
+      transform: scale(.9);
+}
+
 .footer-grid .footer-item:nth-child(3) a{
       transition: var(--transition);
 }
