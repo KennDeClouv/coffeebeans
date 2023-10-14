@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--? Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!--? Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--| Style -->
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/izzulaverroes/ave/main/cdn.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <!--? Favicon -->
+    <link rel="shortcut icon"
+        href="https://s3-alpha-sig.figma.com/img/4970/9070/c410fe55acb123a678ad45e10f0fdd7c?Expires=1698019200&Signature=XytIebfR-RaneU2qDaHYtxPpBjOl4iCnSsM-wQxqLRP7ggdpRQHXX0Pc2GQqB51GH6HWvp6jPmvZh7eUP5Mfg11wv0GbS5ku~TzlTf72yX4O9HxwXQV4cp6ksvLRkSgjZg1yLLTUNektnLueFHZy6gy31QEyy6GFyaKoExzgG5m74kTsUkfNtLEOCmmHpS-DjbFzZxWWeUgdxFs~0~4xUE1e2X1M4FycIsh5xrHdoZlwd30e8V4n2n80bS4t674sBb317-54WlDuPyuinAHRCjFD6Gdyh57rF3oK0MVfbd6l5C0WLovF42mP~ZpvNUfOlbZP0t4fNk8S-f9FmekIig__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+        type="image/x-icon">
+    <title id="pagetitle">CoffeeBeans | Menu</title>
+</head>
+
+<body>
+    <!--? ==== NAVBAR ==== -->
+    <header>
+        <div class="container">
+            <div class="nav">
+                <div class="nav-logo">
+                    <img src="https://s3-alpha-sig.figma.com/img/4970/9070/c410fe55acb123a678ad45e10f0fdd7c?Expires=1698019200&Signature=XytIebfR-RaneU2qDaHYtxPpBjOl4iCnSsM-wQxqLRP7ggdpRQHXX0Pc2GQqB51GH6HWvp6jPmvZh7eUP5Mfg11wv0GbS5ku~TzlTf72yX4O9HxwXQV4cp6ksvLRkSgjZg1yLLTUNektnLueFHZy6gy31QEyy6GFyaKoExzgG5m74kTsUkfNtLEOCmmHpS-DjbFzZxWWeUgdxFs~0~4xUE1e2X1M4FycIsh5xrHdoZlwd30e8V4n2n80bS4t674sBb317-54WlDuPyuinAHRCjFD6Gdyh57rF3oK0MVfbd6l5C0WLovF42mP~ZpvNUfOlbZP0t4fNk8S-f9FmekIig__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+                        alt="">
+                    <p>Cof<span>fe</span>e Be<span>ans</span></p>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="../" id="l-home">Home</a></li>
+                        <li><a href="#" id="l-menu">Menu</a></li>
+                        <li><a href="/news/" id="l-news">News</a></li>
+                        <li><a href="/about/">About</a></li>
+                    </ul>
+                    <div class="cart">
+                        <i class="fa-solid fa-cart-shopping" style="font-size: x-large;" id="cartButton" title="Click to view your order"></i>
+                        <div class="burger">
+                            <input type="checkbox" id="burgerClick">
+                            <span id="span1"></span>
+                            <span id="span2"></span>
+                            <span id="span3"></span>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!--! ==== NAVBAR END ==== -->
+    <!--? ==== MAIN MENU ==== -->
+    <main id="main-menu" class="main-active">
+        <!--? ==== HERO ==== -->
+        <section class="home" id="home">
+            <div class="imgg"></div>
+            <div class="container h-100 al-c">
+                <div class="title">
+                    <h1>Let Us<br>Introduce <br> To Our Product.</h1>
+                    <p>We provide a variety of unique and Best Coffee</p>
+                    <a href="#menu">
+                        <div class="btn">Order Now</div>
+                    </a>
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#F1E8E1" fill-opacity="1"
+                    d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+                </path>
+            </svg>
+        </section>
+        <!--! ==== HERO END ==== -->
+        <!--? ==== MENU  SECTION ==== -->
+        <section class="menu" id="menu">
+            <div class="container">
+                <div class="tit">
+                    <h1>Our Menu</h1>
+                </div>
+                <div class="m">
+                    <div class="tit">
+                        <h1 style="color: var(--third);">COFFEE MENU</h1>
+                    </div>
+                    <div class="menu-box">
+                        <div class="menu-item">
+                            <img src="https://s3-alpha-sig.figma.com/img/1c59/38a8/f392780c67a307e33f502397b884c024?Expires=1698019200&Signature=ZkisdMGvo-wTyyJcJlNMrdIAzaZFRWd-dJsBuGGd-EyYubKYcHgtSaUx9HD1E5gqHD8PRIsdLhA86ltHyV75STcPQN~hCXhzM2jA77wXGhvk1Dh9yQMXfesS2cjpZVwbn2lL-YWx24hGftZ3xeegDH92CEukQYyYnYO7mCugO~AK99uobsS1jkohI4PkWPp3PX-NwgJe~xOrQVDxaBPmoO1iuTcWYLg9KnWAotagrvP0br5FsV9W~Jdpjkqw-p7HQPk0mxuR6ji1VFP7qB0707hMtqiQqHhR1YTyAf-vpTovkzBKRjcjqe1LDLV2JStLg7outj8KgsM4I6o4P4sosw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+                                alt="">
+                            <div class="des">
+                                <h3>Matcha Coffee</h3>
+                                <p>This coffee is made using real coffee beans with a macha mixture.</p>
+                                <div class="price">
+                                    <p>Rp 22.000</p>
+                                    <div class="buy" aria-label="matchaCoffeeButton" id="matchaCoffeeButton">
+                                        BUY
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="https://s3-alpha-sig.figma.com/img/6d53/9090/eb8b45fd71f9e4853e34e6f5f472568f?Expires=1698019200&Signature=YNuu9CQsywQBjUtPf7SQn6zNoOCgaUgO4lIT3Yx9TPzoWj7l8N5MZUm4~6Tn24MKjPBf6FbdLYC748kRk7h-AjgCHys1ITiKkO6IBguOHShNnSNwbvb0QJwEOYKXvZ7H5MXEYZGZj2Aokm~mTh-MsoMbVvfEyYdOmP4SLaap9srs00pML~uMdBcN9ZieRdrs7Dm75ZQPRgAO7ov0nBtGtmmJ7f0RiuM1mpfqLGa-pbdnxLC5ut1FRjkmjr3ppgUAg4fx4seLR5ZHeA5bShkyHzycJP0qp~B5-I3RNjZ616aTEn5MvP9bUnuMlW7KOSP6rEf4WA0R4eGTzeWag75VCw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+                                alt="">
+                            <div class="des">
+                                <h3>Coffee Beans Original</h3>
+                                <p>This coffee is made using real coffee beans.</p><br>
+                                <div class="price">
+                                    <p>Rp 10.000</p>
+                                    <div class="buy" aria-label="originalCoffeeButton" id="originalCoffeeButton">
+                                        BUY
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="https://s3-alpha-sig.figma.com/img/9aee/0692/faa9d4327ca88c1d0c3a421794c82813?Expires=1698019200&Signature=kzPhUc0qgduXeNt4BdTB0mrzQy4BriMyjDYH5uLHCcpQ8bcXX2Tcv-tL-5fDZXTHCYJ48WnWM1-XECyvQDW-Yp7GI7NXpN4wdKfcWUhHeWIgdDpzBYsLW26zViE7mQ73dJdFJGtjmTJnmzLJvW6ipIJHzqhc2X4Foav3BzJarUCoCtJCxXJV4NJPacuos2Mm4ErPW9H1MZp5A32oSa52ojVZ-vqZQnnjt5r-UkULR-Iq5kQ~webMLwWJH0Cpw0M7lIMrUFK0YyjBxVWnUWwNOEFzDCnb~SCH44BzZlRF2t~6euwoL0J2kwgWYrd1Rw2QTTx54qsCoEbm3UKH0lXmTg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+                                alt="">
+                            <div class="des">
+                                <h3>Coffee Beans Special</h3>
+                                <p>This coffee is made using real coffee beans.</p><br>
+                                <div class="price">
+                                    <p>Rp 15.000</p>
+                                    <div class="buy" aria-label="specialCoffeeButton" id="specialCoffeeButton">
+                                        BUY
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="https://s3-alpha-sig.figma.com/img/9aee/0692/faa9d4327ca88c1d0c3a421794c82813?Expires=1698019200&Signature=kzPhUc0qgduXeNt4BdTB0mrzQy4BriMyjDYH5uLHCcpQ8bcXX2Tcv-tL-5fDZXTHCYJ48WnWM1-XECyvQDW-Yp7GI7NXpN4wdKfcWUhHeWIgdDpzBYsLW26zViE7mQ73dJdFJGtjmTJnmzLJvW6ipIJHzqhc2X4Foav3BzJarUCoCtJCxXJV4NJPacuos2Mm4ErPW9H1MZp5A32oSa52ojVZ-vqZQnnjt5r-UkULR-Iq5kQ~webMLwWJH0Cpw0M7lIMrUFK0YyjBxVWnUWwNOEFzDCnb~SCH44BzZlRF2t~6euwoL0J2kwgWYrd1Rw2QTTx54qsCoEbm3UKH0lXmTg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+                                alt="">
+                            <div class="des">
+                                <h3>Matcha Coffee</h3>
+                                <p>This coffee is made using real coffee beans.</p><br>
+                                <div class="price">
+                                    <p>Rp 15.000</p>
+                                    <div class="buy" >
+                                        BUY
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="https://s3-alpha-sig.figma.com/img/9aee/0692/faa9d4327ca88c1d0c3a421794c82813?Expires=1698019200&Signature=kzPhUc0qgduXeNt4BdTB0mrzQy4BriMyjDYH5uLHCcpQ8bcXX2Tcv-tL-5fDZXTHCYJ48WnWM1-XECyvQDW-Yp7GI7NXpN4wdKfcWUhHeWIgdDpzBYsLW26zViE7mQ73dJdFJGtjmTJnmzLJvW6ipIJHzqhc2X4Foav3BzJarUCoCtJCxXJV4NJPacuos2Mm4ErPW9H1MZp5A32oSa52ojVZ-vqZQnnjt5r-UkULR-Iq5kQ~webMLwWJH0Cpw0M7lIMrUFK0YyjBxVWnUWwNOEFzDCnb~SCH44BzZlRF2t~6euwoL0J2kwgWYrd1Rw2QTTx54qsCoEbm3UKH0lXmTg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+                                alt="">
+                            <div class="des">
+                                <h3>Matcha Coffee</h3>
+                                <p>This coffee is made using real coffee beans.</p><br>
+                                <div class="price">
+                                    <p>Rp 15.000</p>
+                                    <div class="buy">
+                                        BUY
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="https://s3-alpha-sig.figma.com/img/9aee/0692/faa9d4327ca88c1d0c3a421794c82813?Expires=1698019200&Signature=kzPhUc0qgduXeNt4BdTB0mrzQy4BriMyjDYH5uLHCcpQ8bcXX2Tcv-tL-5fDZXTHCYJ48WnWM1-XECyvQDW-Yp7GI7NXpN4wdKfcWUhHeWIgdDpzBYsLW26zViE7mQ73dJdFJGtjmTJnmzLJvW6ipIJHzqhc2X4Foav3BzJarUCoCtJCxXJV4NJPacuos2Mm4ErPW9H1MZp5A32oSa52ojVZ-vqZQnnjt5r-UkULR-Iq5kQ~webMLwWJH0Cpw0M7lIMrUFK0YyjBxVWnUWwNOEFzDCnb~SCH44BzZlRF2t~6euwoL0J2kwgWYrd1Rw2QTTx54qsCoEbm3UKH0lXmTg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+                                alt="">
+                            <div class="des">
+                                <h3>Matcha Coffee</h3>
+                                <p>This coffee is made using real coffee beans.</p><br>
+                                <div class="price">
+                                    <p>Rp 15.000</p>
+                                    <div class="buy">
+                                        BUY
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tit">
+                        <h1 style="color: var(--third);">COOKIE MENU</h1>
+                    </div>
+                    <div class="menu-box">
+                        <div class="menu-item">
+                            <img src="https://s3-alpha-sig.figma.com/img/1c59/38a8/f392780c67a307e33f502397b884c024?Expires=1698019200&Signature=ZkisdMGvo-wTyyJcJlNMrdIAzaZFRWd-dJsBuGGd-EyYubKYcHgtSaUx9HD1E5gqHD8PRIsdLhA86ltHyV75STcPQN~hCXhzM2jA77wXGhvk1Dh9yQMXfesS2cjpZVwbn2lL-YWx24hGftZ3xeegDH92CEukQYyYnYO7mCugO~AK99uobsS1jkohI4PkWPp3PX-NwgJe~xOrQVDxaBPmoO1iuTcWYLg9KnWAotagrvP0br5FsV9W~Jdpjkqw-p7HQPk0mxuR6ji1VFP7qB0707hMtqiQqHhR1YTyAf-vpTovkzBKRjcjqe1LDLV2JStLg7outj8KgsM4I6o4P4sosw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+                                alt="">
+                            <div class="des">
+                                <h3>Matcha Coffee</h3>
+                                <p>This coffee is made using real coffee beans with a macha mixture.</p>
+                                <div class="price">
+                                    <p>Rp 22.000</p>
+                                    <div class="buy">
+                                        BUY
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="https://s3-alpha-sig.figma.com/img/6d53/9090/eb8b45fd71f9e4853e34e6f5f472568f?Expires=1698019200&Signature=YNuu9CQsywQBjUtPf7SQn6zNoOCgaUgO4lIT3Yx9TPzoWj7l8N5MZUm4~6Tn24MKjPBf6FbdLYC748kRk7h-AjgCHys1ITiKkO6IBguOHShNnSNwbvb0QJwEOYKXvZ7H5MXEYZGZj2Aokm~mTh-MsoMbVvfEyYdOmP4SLaap9srs00pML~uMdBcN9ZieRdrs7Dm75ZQPRgAO7ov0nBtGtmmJ7f0RiuM1mpfqLGa-pbdnxLC5ut1FRjkmjr3ppgUAg4fx4seLR5ZHeA5bShkyHzycJP0qp~B5-I3RNjZ616aTEn5MvP9bUnuMlW7KOSP6rEf4WA0R4eGTzeWag75VCw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+                                alt="">
+                            <div class="des">
+                                <h3>Coffee Beans Original</h3>
+                                <p>This coffee is made using real coffee beans.</p><br>
+                                <div class="price">
+                                    <p>Rp 10.000</p>
+                                    <div class="buy">
+                                        BUY
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="https://s3-alpha-sig.figma.com/img/9aee/0692/faa9d4327ca88c1d0c3a421794c82813?Expires=1698019200&Signature=kzPhUc0qgduXeNt4BdTB0mrzQy4BriMyjDYH5uLHCcpQ8bcXX2Tcv-tL-5fDZXTHCYJ48WnWM1-XECyvQDW-Yp7GI7NXpN4wdKfcWUhHeWIgdDpzBYsLW26zViE7mQ73dJdFJGtjmTJnmzLJvW6ipIJHzqhc2X4Foav3BzJarUCoCtJCxXJV4NJPacuos2Mm4ErPW9H1MZp5A32oSa52ojVZ-vqZQnnjt5r-UkULR-Iq5kQ~webMLwWJH0Cpw0M7lIMrUFK0YyjBxVWnUWwNOEFzDCnb~SCH44BzZlRF2t~6euwoL0J2kwgWYrd1Rw2QTTx54qsCoEbm3UKH0lXmTg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+                                alt="">
+                            <div class="des">
+                                <h3>Matcha Coffee</h3>
+                                <p>This coffee is made using real coffee beans.</p><br>
+                                <div class="price">
+                                    <p>Rp 15.000</p>
+                                    <div class="buy">
+                                        BUY
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="https://s3-alpha-sig.figma.com/img/9aee/0692/faa9d4327ca88c1d0c3a421794c82813?Expires=1698019200&Signature=kzPhUc0qgduXeNt4BdTB0mrzQy4BriMyjDYH5uLHCcpQ8bcXX2Tcv-tL-5fDZXTHCYJ48WnWM1-XECyvQDW-Yp7GI7NXpN4wdKfcWUhHeWIgdDpzBYsLW26zViE7mQ73dJdFJGtjmTJnmzLJvW6ipIJHzqhc2X4Foav3BzJarUCoCtJCxXJV4NJPacuos2Mm4ErPW9H1MZp5A32oSa52ojVZ-vqZQnnjt5r-UkULR-Iq5kQ~webMLwWJH0Cpw0M7lIMrUFK0YyjBxVWnUWwNOEFzDCnb~SCH44BzZlRF2t~6euwoL0J2kwgWYrd1Rw2QTTx54qsCoEbm3UKH0lXmTg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+                                alt="">
+                            <div class="des">
+                                <h3>Matcha Coffee</h3>
+                                <p>This coffee is made using real coffee beans.</p><br>
+                                <div class="price">
+                                    <p>Rp 15.000</p>
+                                    <div class="buy">
+                                        BUY
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="https://s3-alpha-sig.figma.com/img/9aee/0692/faa9d4327ca88c1d0c3a421794c82813?Expires=1698019200&Signature=kzPhUc0qgduXeNt4BdTB0mrzQy4BriMyjDYH5uLHCcpQ8bcXX2Tcv-tL-5fDZXTHCYJ48WnWM1-XECyvQDW-Yp7GI7NXpN4wdKfcWUhHeWIgdDpzBYsLW26zViE7mQ73dJdFJGtjmTJnmzLJvW6ipIJHzqhc2X4Foav3BzJarUCoCtJCxXJV4NJPacuos2Mm4ErPW9H1MZp5A32oSa52ojVZ-vqZQnnjt5r-UkULR-Iq5kQ~webMLwWJH0Cpw0M7lIMrUFK0YyjBxVWnUWwNOEFzDCnb~SCH44BzZlRF2t~6euwoL0J2kwgWYrd1Rw2QTTx54qsCoEbm3UKH0lXmTg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+                                alt="">
+                            <div class="des">
+                                <h3>Matcha Coffee</h3>
+                                <p>This coffee is made using real coffee beans.</p><br>
+                                <div class="price">
+                                    <p>Rp 15.000</p>
+                                    <div class="buy">
+                                        BUY
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="https://s3-alpha-sig.figma.com/img/9aee/0692/faa9d4327ca88c1d0c3a421794c82813?Expires=1698019200&Signature=kzPhUc0qgduXeNt4BdTB0mrzQy4BriMyjDYH5uLHCcpQ8bcXX2Tcv-tL-5fDZXTHCYJ48WnWM1-XECyvQDW-Yp7GI7NXpN4wdKfcWUhHeWIgdDpzBYsLW26zViE7mQ73dJdFJGtjmTJnmzLJvW6ipIJHzqhc2X4Foav3BzJarUCoCtJCxXJV4NJPacuos2Mm4ErPW9H1MZp5A32oSa52ojVZ-vqZQnnjt5r-UkULR-Iq5kQ~webMLwWJH0Cpw0M7lIMrUFK0YyjBxVWnUWwNOEFzDCnb~SCH44BzZlRF2t~6euwoL0J2kwgWYrd1Rw2QTTx54qsCoEbm3UKH0lXmTg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+                                alt="">
+                            <div class="des">
+                                <h3>Matcha Coffee</h3>
+                                <p>This coffee is made using real coffee beans.</p><br>
+                                <div class="price">
+                                    <p>Rp 15.000</p>
+                                    <div class="buy">
+                                        BUY
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--! ==== MENU END ==== -->
+        <!--? ==== DEFINITION  SECTION ==== -->
+        <section class="def" id="def">
+            <div class="container">
+                <div class="tit">
+                    <h1>New Arrival</h1>
+                </div>
+                <div class="m">
+
+                </div>
+            </div>
+        </section>
+        <!--! ==== DEFINITION END ==== -->
+    </main>
+    <!--! ==== MAIN MENU END==== -->
+    <!-- 
+todo  ==========================
+!=============================
+?=============================
+*=============================
+     -->
+    <!--? ==== MAIN CART ==== -->
+    <main id="main-cart" class="main-disactive">
+        <!--? ==== HERO ==== -->
+        <section class="home" id="home">
+            <div class="imggg"></div>
+            <div class="container h-100 al-c">
+                <div class="title">
+                    <h1>Let Go<br>Pay to Enjoy<br>Our Special Coffee.</h1>
+                    <p>We provide a variety of unique and Best Coffee</p>
+                    <a href="#menu">
+                        <div class="btn">Pay Now</div>
+                    </a>
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#F1E8E1" fill-opacity="1"
+                    d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+                </path>
+            </svg>
+        </section>
+        <!--! ==== HERO END ==== -->
+        <!--? ==== MENU  SECTION ==== -->
+        <section class="menu" id="menu">
+            <div class="container">
+                <div class="tit">
+                    <h1>Your Order</h1>
+                </div>
+                <div class="m">
+                    <div class="tit" id="gotoorder">
+                        <p style="color: var(--third); text-align: center;">You dont have order yet lets order now</p>
+                        <a href="">
+                            <div class="come-order">
+                                Go to Menu
+                            </div>
+                        </a>
+                    </div>
+                    <div class="menu-box" id="orderMenu">
+                        <div class="Order disactive" id="matchaCoffeeOrder">
+                            <img src="https://s3-alpha-sig.figma.com/img/1c59/38a8/f392780c67a307e33f502397b884c024?Expires=1698019200&Signature=ZkisdMGvo-wTyyJcJlNMrdIAzaZFRWd-dJsBuGGd-EyYubKYcHgtSaUx9HD1E5gqHD8PRIsdLhA86ltHyV75STcPQN~hCXhzM2jA77wXGhvk1Dh9yQMXfesS2cjpZVwbn2lL-YWx24hGftZ3xeegDH92CEukQYyYnYO7mCugO~AK99uobsS1jkohI4PkWPp3PX-NwgJe~xOrQVDxaBPmoO1iuTcWYLg9KnWAotagrvP0br5FsV9W~Jdpjkqw-p7HQPk0mxuR6ji1VFP7qB0707hMtqiQqHhR1YTyAf-vpTovkzBKRjcjqe1LDLV2JStLg7outj8KgsM4I6o4P4sosw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+                                alt="">
+                            <div class="des">
+                                <h3>Matcha Coffee</h3>
+                                <p>This coffee is made using real coffee beans with a macha mixture.</p>
+                                <div class="price">
+                                    <p>Rp 22.000</p>
+                                </div>
+                            </div>
+                            <i class="fa-solid fa-trash"  id="matchaCoffeeTrash"></i>
+                        </div>
+                        <div class="Order disactive" id="originalCoffeeOrder" aria-valuenow="10000">
+                            <img src="https://s3-alpha-sig.figma.com/img/6d53/9090/eb8b45fd71f9e4853e34e6f5f472568f?Expires=1698019200&Signature=YNuu9CQsywQBjUtPf7SQn6zNoOCgaUgO4lIT3Yx9TPzoWj7l8N5MZUm4~6Tn24MKjPBf6FbdLYC748kRk7h-AjgCHys1ITiKkO6IBguOHShNnSNwbvb0QJwEOYKXvZ7H5MXEYZGZj2Aokm~mTh-MsoMbVvfEyYdOmP4SLaap9srs00pML~uMdBcN9ZieRdrs7Dm75ZQPRgAO7ov0nBtGtmmJ7f0RiuM1mpfqLGa-pbdnxLC5ut1FRjkmjr3ppgUAg4fx4seLR5ZHeA5bShkyHzycJP0qp~B5-I3RNjZ616aTEn5MvP9bUnuMlW7KOSP6rEf4WA0R4eGTzeWag75VCw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+                                alt="">
+                            <div class="des">
+                                <h3>Coffee Beans Original</h3>
+                                <p>This coffee is made using real coffee beans.</p>
+                                <div class="price">
+                                    <p>Rp 10.000</p>
+                                </div>
+                            </div>
+                            <i class="fa-solid fa-trash"  id="originalCoffeeTrash"></i>
+                        </div>
+                        <div class="Order disactive" id="specialCoffeeOrder" aria-valuenow="15000">
+                            <img src="https://s3-alpha-sig.figma.com/img/9aee/0692/faa9d4327ca88c1d0c3a421794c82813?Expires=1698019200&Signature=kzPhUc0qgduXeNt4BdTB0mrzQy4BriMyjDYH5uLHCcpQ8bcXX2Tcv-tL-5fDZXTHCYJ48WnWM1-XECyvQDW-Yp7GI7NXpN4wdKfcWUhHeWIgdDpzBYsLW26zViE7mQ73dJdFJGtjmTJnmzLJvW6ipIJHzqhc2X4Foav3BzJarUCoCtJCxXJV4NJPacuos2Mm4ErPW9H1MZp5A32oSa52ojVZ-vqZQnnjt5r-UkULR-Iq5kQ~webMLwWJH0Cpw0M7lIMrUFK0YyjBxVWnUWwNOEFzDCnb~SCH44BzZlRF2t~6euwoL0J2kwgWYrd1Rw2QTTx54qsCoEbm3UKH0lXmTg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+                                alt="">
+                            <div class="des">
+                                <h3>Coffee Beans Special</h3>
+                                <p>This coffee is made using real coffee beans.</p>
+                                <div class="price">
+                                    <p>Rp 15.000</p>
+                                </div>
+                            </div>
+                            <i class="fa-solid fa-trash" id="specialCoffeeTrash"></i>
+                        </div>
+                    </div>
+                    <div class="total">
+                        <div class="total-price" id="totalPrice">Rp. </div>
+                        <div class="checkoutBtn" id="checkoutButton">PAY NOW</div>
+                    </div>
+                </div>
+        </section>
+        <!--! ==== MENU END ==== -->
+    </main>
+    <!--! ==== MAIN CART END==== -->
+    <!--? ==== FOOTER ==== -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-item">
+                    <div class="nav-logo">
+                        <img src="https://s3-alpha-sig.figma.com/img/4970/9070/c410fe55acb123a678ad45e10f0fdd7c?Expires=1698019200&Signature=XytIebfR-RaneU2qDaHYtxPpBjOl4iCnSsM-wQxqLRP7ggdpRQHXX0Pc2GQqB51GH6HWvp6jPmvZh7eUP5Mfg11wv0GbS5ku~TzlTf72yX4O9HxwXQV4cp6ksvLRkSgjZg1yLLTUNektnLueFHZy6gy31QEyy6GFyaKoExzgG5m74kTsUkfNtLEOCmmHpS-DjbFzZxWWeUgdxFs~0~4xUE1e2X1M4FycIsh5xrHdoZlwd30e8V4n2n80bS4t674sBb317-54WlDuPyuinAHRCjFD6Gdyh57rF3oK0MVfbd6l5C0WLovF42mP~ZpvNUfOlbZP0t4fNk8S-f9FmekIig__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+                            alt="">
+                        <p>Cof<span>fe</span>e Be<span>ans</span></p>
+                    </div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet sint debitis, ducimus
+                        voluptate
+                        voluptas quos?</p>
+                    <div class="sosmed">
+                        <div class="sos">
+                            <a href="https://facebook.com"><i class="fa-brands fa-facebook-square"></i></a>
+                        </div>
+                        <div class="sos">
+                            <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                        <div class="sos">
+                            <a href="https://twitter.com"><i class="fa-brands fa-x-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-item">
+                    <h1>Contact Us</h1>
+                    <p>Phone Number : 0858 5996 7614</p>
+                    <p>Email : abdullahfaqihmaruf@gmail.com</p>
+                    <p>The address is in Indonesia</p>
+                </div>
+                <div class="footer-item">
+                    <h1>Viewer Guides</h1>
+                    <a href="../">Home</a>
+                    <a href="#">Menu</a>
+                    <a href="/about/">About</a>
+                    <a href="/news/">News</a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p style="text-align: center;padding: 10px;">Designed by Faqih | Code by Izzul</p>
+    </footer>
+    <!--! ==== FOOTER END ==== -->
+
+    <script src="../js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
