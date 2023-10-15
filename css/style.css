@@ -4,6 +4,7 @@
       padding: 0;
       font-family: "Poppins", sans serif;
       color: white;
+      list-style: none;
 }
 /*! Root settings */
 :root {
@@ -162,9 +163,29 @@ nav ul li a:hover {
       background-position: center;
       z-index: -1;
 }
+.imgggg {
+      width: 100%;
+      height: 100vh;
+      position: absolute;
+      background-image: url(https://s3-alpha-sig.figma.com/img/49d1/4232/f4f8481f1a83b3ceddfa24703ef83348?Expires=1698019200&Signature=VR432S~4BWaqI~7sfU-IS79W8fWsE7CjIdGePHeMvi4c3mnb4-Tbeg4BkrSJgolzrii1x9JDmH4IeJR01CZV8pjQ3usY-n1PXCRnsruS7DFmzbOWkf7t~8g6sYARtXCu0SPY5sEb~XD6l4EqcVCF-t00LDqapttPXZ7T-UnjuE9C55PRCZLBXaZ6eyaEYt2yRdVN4~OGX0eSNBxq-xZ-6Pon1IAdXvMicCgqpVE8VgOCdkIYAMTa1kRb-QbCqTfFBFvkXuR1mG4ofeQQQPTCUcJ0RB--ECGsO4N~q-KwhjCVcJsUDDqGx7Pwz6ANKibj9bG-nZ7trlHgAjKiXXSF5A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+      background-size: cover;
+      background-position: center;
+      z-index: -1;
+}
+.imggggg {
+      width: 100%;
+      height: 100vh;
+      position: absolute;
+      background-image: url(https://s3-alpha-sig.figma.com/img/4c11/b515/2c6069b0bbc65bfc7883dabe477e18cd?Expires=1698019200&Signature=Lowob6lFzMMILIKK-IG7rsgAyeYlOCW61KHne0jflzEDilQLQ4Dsz~j7HUW4bAlqCBAx-dcFb3FfXvaI17Zjtnjp0hx1UxppFjP08nogZb5S56c5sQ5SxnZC-~~uTNCOzQnS4znS8gTifu8J7rezy7I-Mc1eDgyPcDMb~98tsmz9QWOQ~UdMevszz90rgsR-6iFYfPQHAK6zso3N7-vdtRXmW-1I1R3t17iXoEuQ8zupaHqgl5yxXT5kP3VOxxked~UShulHkueKKEd2jyhh2OOy~rmE1z1KHYeVuoLMzLvdX45SsYsGsKhs3v9bMowKcGFUr70QxqvKidsJV2CG2w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+      background-size: cover;
+      background-position: center;
+      z-index: -1;
+}
 .img::after,
 .imgg::after,
-.imggg::after {
+.imggg::after,
+.imgggg::after,
+.imggggg::after {
       content: "";
       position: absolute;
       display: block;
@@ -260,6 +281,7 @@ svg {
 }
 .des {
       text-align: start;
+      height: 100%;
 }
 .des h3,
 .des p {
@@ -274,7 +296,7 @@ svg {
       font-size: 24px;
 }
 .buy {
-      padding: 4px 18px;
+      padding: 6px 18px;
       background-color: var(--secondary);
       border-radius: 10px;
       font-weight: 600;
@@ -282,6 +304,8 @@ svg {
       display: flex;
       cursor: pointer;
       transition: var(--transition);
+      justify-content: center;
+      margin: 20px auto 0 auto;
 }
 .buy:hover {
       background-color: var(--primary);
@@ -501,32 +525,74 @@ footer {
       transform: scale(0.94);
 }
 
-.total {
+.checkOut{
       width: 80%;
       display: grid;
       grid-template-columns: 1.5fr 1fr;
       margin: 20px auto;
       gap: 10px;
 }
-.total-price {
+.checkOut{
       background-color: var(--third);
       padding: 10px;
       border-radius: 10px;
       color: var(--primary);
+      align-items: center;
+}
+.checkOut>div{
+      color: var(--primary);
+      display: flex;
 }
 .checkoutBtn{
       width: 150px;
-      height: 100%;
+      height: 40px;
       border-radius:10px ;
-      background-color: var(--third);
+      background-color: var(--secondary);
       display: flex;
       justify-content: center;
       align-items: center;
       margin-left: auto;
       transition: var(--transition);
-      color: var(--primary);
+      color: var(--third) !important;
       cursor: pointer;
 }
 .checkoutBtn:hover{
+      background-color: var(--primary);
+      color: var(--third);
+}
+
+.addQ{
+      display: flex;
+      gap: 10px;
       background-color: var(--secondary);
+      padding: 15px;
+      border-radius: 10px;
+}
+.addQ button{
+      padding: 2px 6px;
+      background-color: var(--third);
+      border-style: none;
+      color: var(--primary);
+      border-radius: 5px;
+      transition: var(--transition);
+      cursor: pointer;
+}
+.addQ button:hover{
+      background-color: var(--primary);
+      color: var(--third);
+}
+
+.total{
+      color: var(--primary);
+}
+.list{
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+}
+.listCookie{
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+}
+.item .menu-item{
+      height: 94%
 }
